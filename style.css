@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#topbtncontainer {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#cntlbl {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#btncontainer {
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: rgb(253, 253, 253);
+    background-color: rgb(146, 175, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: rgb(42, 93, 232);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.sound-btn {
+    background-color: rgb(133, 236, 140);
+}
+
+.sound-btn:hover {
+    background-color: rgb(48, 210, 59);
+}
+
+.vibration-btn {
+    background-color: rgb(234, 97, 97);
+}
+
+.vibration-btn:hover {
+    background-color: rgb(174, 17, 17);
+}
