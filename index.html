@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tally counter</title>
+    <title>My website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div id="topbtncontainer">
-       <button id="toggleSoundBtn" class="btn sound-btn">Disable Sound</button>
-       <button id="toggleVibrationBtn" class="btn vibration-btn">Disable Vibration</button>
+       <button id="toggleSoundBtn" class="btn small-btn sound-btn">Disable Sound</button>
+       <button id="toggleVibrationBtn" class="btn small-btn vibration-btn">Disable Vibration</button>
    </div>
-   <label id="cntlbl">0</label>
+   <div id="counterbox">
+       <label id="cntlbl">0</label>
+   </div>
    <div id="btncontainer">
-       <button id="increasebtn" class="btn">Increase</button>
-       <button id="resetbtn" class="btn">↻</button>
-       <button id="decreasebtn" class="btn">Decrease</button>
+       <button id="increasebtn" class="btn large-btn">Increase</button>
+       <button id="resetbtn" class="btn large-btn">↻</button>
+       <button id="decreasebtn" class="btn large-btn">Decrease</button>
    </div>
    <script src="index.js"></script>
 </body>
